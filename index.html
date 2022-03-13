@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .bg-colorblue {
+            background-color: blue;
+        }
+
+        .bg-colorbrown {
+            background-color: brown;
+        }
+
+        .bg-color {
+            background-color: burlywood;
+        }
+
+        .bg-colorcoral {
+            background-color: coral;
+        }
+
+        body {
+            background-image: url(images/office11.jpg);
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: 100% 40%;
+
+
+        }
+
+        ul {
+            padding: 0;
+            margin-top: 5%;
+            width: 100%;
+            height: 40px;
+            /* background-color: antiquewhite; */
+            line-height: 20px;
+        }
+
+        li {
+            font-size: 20px;
+            float: left;
+            padding: 10px;
+        }
+
+        li:hover {
+            box-shadow: 0 0 5px 5px black;
+            border-radius: 20px;
+            zoom: 110%;
+            /* height: 45px; */
+            /* background-color: antiquewhite; */
+
+        }
+
+        .container {
+            width: 900px;
+            margin: auto;
+
+            margin-top: 10%;
+        }
+
+        .box {
+            width: 300px;
+
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+            transition: 1s;
+
+
+
+        }
+
+        .box:hover {
+            box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.493);
+            transition: 1s;
+            border-radius: 20px;
+        }
+
+        .subbox {
+            text-align: center;
+            border: 1px black;
+            background-color: rgba(255, 255, 255, 0.425);
+            box-sizing: border-box;
+
+        }
+
+
+        .box :hover img {
+            box-shadow: 0 0 5px 5px black;
+        }
+
+        img {
+            margin-top: 20px;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+
+        }
+
+        .sizeimg {
+            width: 20px;
+            height: 20px;
+            margin: 5px;
+
+        }
+
+        .secondbox {
+
+            width: 1500px;
+            height: 400px;
+            background-color: white;
+            margin: auto;
+            margin-top: 45%;
+
+        }
+
+        .secondsubbox:hover {
+            box-shadow: 0 0 10px 5px gray;
+            color: gold;
+            border-radius: 20px;
+            transition: 1s;
+        }
+
+        .secondsubbox {
+            width: 375px;
+            transition: 1s;
+
+            float: left;
+            padding: 2px;
+            box-sizing: border-box;
+         
+        }
+
+        .services {
+           
+
+            text-align: center;
+            padding: 100px;
+        }
+
+        i {
+            font-size: 85px;
+        }
+
+        .thirdbox{
+            width: 1500px;
+         
+        
+            position: absolute;
+            top: 1500px;
+            left: 95px;
+
+            
+          }
+
+        .thirdsubbox{
+            width: 500px;
+          
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .contact{
+            width: 480px;
+            
+          
+            text-align: center;
+
+        }
+        .contact:hover{
+            box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.24);
+            border-radius: 20px;
+            color: gold;
+            transition: 1s;
+        }
+        .contact:hover h2{
+            color: greenyellow;
+        }
+        .contact:hover h1{
+            color:darkgoldenrod;
+        }
+
+
+       
+    </style>
+</head>
+
+<body>
+    <ul style="list-style-type: none;">
+        <a href="#1"><li>Home</li></a>
+        <a href="#2"><li>Services</li></a>
+        <a href="#3"><li>Contact</li></a>
+        
+        
+    </ul>
+    <div id="1" class="container">
+        <div class="box ">
+            <div class="subbox">
+                <img src="images/abhi.jpg" alt="">
+                <h1>Abhishek Tadvi</h1>
+                <h4>senior manager</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <img class="sizeimg" src="images/face.png" alt="">
+                <img class="sizeimg" src="images/twitter.jpg" alt="">
+                <img class="sizeimg" src="images/instagram.jpg" alt=""><img class="sizeimg" src="images/linkden.jpg"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="box ">
+            <div class="subbox"><img src="images/1645594377858.jpg" alt="">
+                <h1>Meet Soni</h1>
+                <h4>senior manager</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <img class="sizeimg" src="images/face.png" alt="">
+                <img class="sizeimg" src="images/twitter.jpg" alt="">
+                <img class="sizeimg" src="images/instagram.jpg" alt=""><img class="sizeimg" src="images/linkden.jpg"
+                    alt="">
+            </div>
+        </div>
+        <div class="box ">
+            <div class="subbox"><img src="images/samip.jpg" alt="">
+                <h1>Samip Vichare</h1>
+                <h4>senior manager</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <img class="sizeimg" src="images/face.png" alt="">
+                <img class="sizeimg" src="images/twitter.jpg" alt="">
+                <img class="sizeimg" src="images/instagram.jpg" alt=""><img class="sizeimg" src="images/linkden.jpg"
+                    alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="2" class="secondbox">
+        <h1 style="text-align: center;">Services</h1>
+        <div class="secondsubbox ">
+            <div class="services">
+                <i class="fa-solid fa-code"></i>
+                <h1>Software Developement</h1>
+            </div>
+        </div>
+        <div class="secondsubbox ">
+            <div class="services">
+                <i class="fa-solid fa-business-time"></i>
+                <h1>Business Consulting</h1>
+            </div>
+        </div>
+        <div class="secondsubbox ">
+            <div class="services">
+                <i class="fa-solid fa-cubes"></i>
+                <h1>Block Chain</h1>
+            </div>
+        </div>
+        <div class="secondsubbox ">
+            <div class="services">
+                <i class="fa-solid fa-copy"></i>
+                <h1>Website Designing</h1>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="3" class="thirdbox">
+            <h1 style="text-align: center;">Contact Us</h1>
+     
+            <div class="thirdsubbox ">
+                <div class="contact">
+                    <h1>Vadodara</h1>
+                    <address>
+                        A-13, Samrpan avenue,<br>
+                         opp. citi bank, Vadodara
+                    </address>
+                    <h2 style="position: relative;"><i class="fa-solid fa-phone" style="font-size: 20px; position: absolute; left: 140px; top: 5px;"></i>989876788987</h2>
+                    <h2 style="position: relative;"><i class="fa-solid fa-envelope" style="font-size: 20px; position: absolute; left: 75px; top: 5px;"></i>abhishektadvi@gmail.com</h2>
+                    
+                </div>
+            </div>
+        
+
+
+    
+            <div class="thirdsubbox  ">
+                <div class="contact">
+                    <h1>Padra</h1>
+                    <address>
+                        F/6, Gokuldham avenue <br>
+                        near bus depo, Padra
+                    </address>
+                    <h2 style="position: relative;"><i class="fa-solid fa-phone" style="font-size: 20px; position: absolute; left: 140px; top: 5px;"></i>9265288952</h2>
+                    <h2 style="position: relative;"><i class="fa-solid fa-envelope" style="font-size: 20px; position: absolute; left: 75px; top: 5px;"></i>meetsoni784@gmail.com</h2>
+                   
+                </div>
+
+            </div>
+      
+            
+
+     
+            <div class="thirdsubbox ">
+                <div class="contact">
+                    <h1>Mumbai</h1>
+                    <address>
+                        B6-202, Samnvay complex <br>
+                        Race course road, Surat
+                    </address>
+                    <h2 style="position: relative;"><i class="fa-solid fa-phone" style="font-size: 20px; position: absolute; left: 140px; top: 5px;"></i>8978675634</h2>
+                    <h2 style="position: relative;"><i class="fa-solid fa-envelope" style="font-size: 20px; position: absolute; left:75px; top: 5px;"></i>samipvichare@gmial.com</h2>
+
+                </div>
+            </div>
+        
+
+      
+    </div>
+
+</body>
+
+</html>
